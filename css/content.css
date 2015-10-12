@@ -1,0 +1,160 @@
+.contentPage {
+  margin: 40px auto 0;
+  max-width: 1200px;
+  min-width: 250px;
+}
+.excerpt {
+  text-align: justify;
+}
+section {
+  background: #fff none repeat scroll 0 0;
+  border: 1px solid #e2e1df;
+  display: block;
+  margin-left: 260px;
+}
+.simplePage{
+ margin-left: 0px !important;
+}
+
+.postContent {
+min-height: 400px;
+padding: 26px 21px 50px;
+}
+.postContent > p {
+  text-align: justify;
+}
+
+.SliderLightHUG {
+  //margin-top: 8px;
+}
+
+.postContent li {
+  padding: 8px;
+}
+
+.postContent td {
+  padding: 3px;
+}
+
+.listing-item {
+background: #DDDDDD none repeat scroll 0 0;
+display: block;
+list-style: outside none none;
+margin: 10px;
+min-height: 140px;
+}
+.image {
+  display: block;
+  float: left;
+  margin: 10px;
+}
+.title {
+color: #383838;
+display: block;
+font-size: 20px;
+margin: 5px 0 5px 210px  ;
+text-decoration: none;
+}
+.image-section {
+  float: left;
+  margin: 10px;
+max-width: 160px;
+  width: 100%;
+  height: auto;
+}
+.main-heading h1{
+  text-align: center;
+}
+.ls-wp-container{
+  z-index: -10;
+}
+/* button Up
+==================== */
+.UpButtonn{
+display: none !important;
+
+}
+
+.UppBtn{
+ background: url(../img/BtnUp.png);
+ height: 47px;
+ width: 47px;
+ bottom: 20px;
+ display: block;
+ position: fixed;
+ right: 20px;
+
+ z-index: 100;
+}
+.UppBtn:hover{
+  background: url(../img/BtnUpHover.png);
+}
+
+
+/* button Up
+==================== */
+
+
+.rtbs_full .rtbs_menu li.mobile_toggle {
+  color: #000 !important;
+
+}
+@media screen and  (min-width: 900px) and (max-width: 975px)
+{
+  .headerlogo {
+  height: auto;
+  max-width: 386px;
+  min-width: 250px;
+  width: 100%;
+}
+.main-nav {
+  margin-top: -12px;
+}
+
+}
+
+@media screen and (max-width: 900px) {
+  .headerlogo {
+
+  max-width: 270px;
+
+}
+ .main-nav {
+  margin-top: -24px;
+}
+}
+
+@media screen and (max-width: 700px) {
+  .Varsicherungen-navigation {
+  background: #486a82 none repeat scroll 0 0;
+  display: block;
+  height: auto;
+  width:auto;
+  float: none;
+}
+.main-nav {
+    margin-top: -13px;
+}
+
+section {
+  margin: auto;
+}
+.SliderLightHUG {
+  margin-top: 28px;
+}
+
+}
+
+@media screen and (max-width: 525px){
+.image {
+  float: none;
+  max-width: 150px;
+  margin: 10px auto;
+ }
+ .title {
+  margin: 5px 0 5px 0;
+  text-align: center;
+}
+
+
+}

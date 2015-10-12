@@ -1,0 +1,123 @@
+footer {
+background: #aaaeaf ;
+color: #ffffff;
+width: 100%;
+position: relative;
+bottom: 0px;
+left: 0;
+}
+.FooterInfo {
+    height: 100%;
+
+    max-height: 600px;
+
+    min-height: 200px;
+    width: 100%;
+
+}
+.leftAdrPanel,.rightAdrPAnel {
+  float: left;
+  width: 50%;
+  padding-top: 70px;
+  min-height: 136px;
+}
+.leftAdrPanel{
+  background: #0b161c;
+}
+
+.address,.contacts {
+  float: left;
+}
+.rightAdrPAnel{
+background: #0b161c; /* Old browsers */
+background: -moz-linear-gradient(left, #0b161c 0%, #aaaeaf 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right top, color-stop(0%,#0b161c), color-stop(100%,#aaaeaf)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(left, #0b161c 0%,#aaaeaf 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(left, #0b161c 0%,#aaaeaf 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(left, #0b161c 0%,#aaaeaf 100%); /* IE10+ */
+background: linear-gradient(to right, #0b161c 0%,#aaaeaf 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0b161c', endColorstr='#aaaeaf',GradientType=1 ); /* IE6-9 */
+}
+
+.bottomLogoimgTwo {
+float: right;
+margin-left: 50px;
+width: 150px;
+}
+.bottomLogoimg {
+margin-left: 50px;
+width: 260px;
+}
+
+.contacts {
+  margin-left: 50px;
+}
+.inLeftPanel {
+  margin-left: 100px;
+}
+
+.inRightPanel {
+  margin-right: 90px;
+}
+@media screen and (max-width: 900px){
+
+.contacts {
+  margin-left: 0px;
+  margin-top: 20px;
+}
+
+.leftAdrPanel, .rightAdrPAnel {
+
+  min-height: 180px;
+
+}
+}
+
+@media screen and (max-width: 700px) {
+ .leftAdrPanel, .rightAdrPAnel {
+   width: 100%;
+ }
+ .rightAdrPAnel {
+  background: #0b161c;
+}
+.bottomLogoimg {
+
+max-width: 260px;
+height: auto;
+}
+.bottomLogoimgTwo {
+  float: none;
+  height: auto;
+  margin-left: 30px;
+  max-width: 150px;
+  padding-top: 50px;
+}
+
+.rightAdrPAnel{
+  padding-top: 0px;
+}
+/*  .contacts {
+    margin-left: 15px;
+    margin-top: 0px;
+}*/
+}
+@media screen and (min-width: 600px) and (max-width:700px){
+  .contacts {
+    margin-left: 15px;
+    margin-top: 0px;
+}
+}
+@media screen and (max-width: 600px) {
+.address, .contacts {
+  float: none;
+}
+.contacts {
+  margin: 20px auto;
+}
+.inLeftPanel {
+  margin-left: 36px;
+}
+.inRightPanel {
+  margin-right: 0px;
+}
+}

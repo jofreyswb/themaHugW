@@ -1,0 +1,80 @@
+/*
+Theme Name:  Site for HUG
+Theme URI:  website3d.ru
+Author: wbsite3D.ru
+Description: 2015 theme for WordPress.
+Version: 1.0
+
+Tags: white
+Text Domain: simplest-site
+
+
+*/
+
+body{
+  width: 100%;
+height: 100%;
+margin: 0;
+padding: 0;
+background: #eeefee;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 13pt;
+color: #394245;
+}
+
+p{
+margin: 0;
+padding: 0;
+}
+h2 {
+  font-size: 14pt;
+}
+
+
+/* Main in site
+================================== */
+/*  Alignments
+=================================== */
+
+.alignleft {
+	display: inline;
+	float: left;
+}
+
+.alignright {
+	display: inline;
+	float: right;
+}
+
+.aligncenter {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+blockquote.alignleft,
+.wp-caption.alignleft,
+img.alignleft {
+	margin: 0.4em 1.6em 1.6em 0;
+}
+
+blockquote.alignright,
+.wp-caption.alignright,
+img.alignright {
+	margin: 0.4em 0 1.6em 1.6em;
+}
+
+blockquote.aligncenter,
+.wp-caption.aligncenter,
+img.aligncenter {
+	clear: both;
+	margin-top: 0.4em;
+	margin-bottom: 1.6em;
+}
+
+.wp-caption.alignleft,
+.wp-caption.alignright,
+.wp-caption.aligncenter {
+	margin-bottom: 1.2em;
+}
+
