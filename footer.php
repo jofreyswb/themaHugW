@@ -12,38 +12,40 @@
    <!-- end wraper -->
     <footer>
     <div class="FooterInfo">
+
           <div class="leftAdrPanel">
             <div class="inLeftPanel">
                  <div class="address">
-                      <p>Kurt Hug Immobilien GmbH</p>
-                      <p>Dorfstrasse 21 </p>
-                      <p>9535 Wilen</p>
+                 <?php if ( is_active_sidebar( 'bottom-sidebar' ) ) :
+                        dynamic_sidebar( 'bottom-sidebar' );
+                endif; ?>
+
                  </div> <!-- end address -->
 
                  <div class="contacts">
-                       <table>
-                       <tr>
-                         <td>Telefon:</td>
-                         <td>071 923 07 93</td>
-                       </tr>
-                       <tr>
-                         <td>Fax:</td>
-                         <td>071 923 07 92 </td>
-                       </tr>
-                       <tr>
-                         <td>E-Mail:</td>
-                         <td>info@hug-hug.ch</td>
-                       </tr>
-                     </table>
+                 <?php if ( is_active_sidebar( 'top-sidebar' ) ) :
+                        dynamic_sidebar( 'top-sidebar' );
+                endif; ?>
                  </div> <!-- end contacts -->
                  </div><!-- end leftAdrPanel -->
            </div> <!-- end inLeftPanel -->
 
      <div class="rightAdrPAnel">
          <div class="inRightPanel">
-            <img class="bottomLogoimg" src="<?php bloginfo( 'stylesheet_directory' ); ?>/img/logokurt2BotomLogo.png" alt="" />
-            <img class="bottomLogoimgTwo" src="<?php bloginfo( 'stylesheet_directory' ); ?>/img/memberOSwiss.png" alt="" />
-         </div> <!-- end inRightPanel -->
+             <div  id="bottomLogoimg">
+                 <?php if ( is_active_sidebar( 'left-sidebar' ) ) :
+                        dynamic_sidebar( 'left-sidebar' );
+                endif; ?>
+             </div>
+             <div  id="bottomLogoimgTwo">
+                 <?php if ( is_active_sidebar( 'right-sidebar' ) ) :
+                        dynamic_sidebar( 'right-sidebar' );
+                endif; ?>
+             </div>
+           <!-- <img  src="<?php bloginfo( 'stylesheet_directory' ); ?>/img/logokurt2BotomLogo.png" alt="" />
+            <img class="" src="<?php bloginfo( 'stylesheet_directory' ); ?>/img/memberOSwiss.png" alt="" />
+-->
+        </div> <!-- end inRightPanel -->
      </div><!-- end rightAdrPAnel -->
 
 

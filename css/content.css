@@ -77,6 +77,7 @@ display: none !important;
 
 .UppBtn{
  background: url(../img/BtnUp.png);
+ background-size: 47px;
  height: 47px;
  width: 47px;
  bottom: 20px;
@@ -88,6 +89,7 @@ display: none !important;
 }
 .UppBtn:hover{
   background: url(../img/BtnUpHover.png);
+  background-size: 47px;
 }
 
 
@@ -108,7 +110,7 @@ display: none !important;
   width: 100%;
 }
 .main-nav {
-  margin-top: -12px;
+  margin-top: -39px;
 }
 
 }
@@ -120,7 +122,7 @@ display: none !important;
 
 }
  .main-nav {
-  margin-top: -24px;
+  margin-top: -44px;
 }
 }
 

@@ -1,11 +1,12 @@
 /* Menu */
 .main-nav {
 float: right;
-margin-top: -28px;
+margin-top: -39px;
 max-width: 600px;
 min-width: 250px;
 position: relative;
 width: 100%;
+z-index: 120;
 }
 .main-nav ul {
 margin: 0;
@@ -38,7 +39,7 @@ position: absolute;
 
 /*sub menu*/
 .main-nav a {
-padding:16px 30px ;
+padding: 15px 30px ;
 text-decoration: none;
 color: #fff;
 line-height: 100%;
@@ -52,10 +53,17 @@ display: block;
 background: #fff;
 }
 .curLink a{
-color: #000 !important;
+/*color: #000 !important;
 display: block !important;
 background: #fff !important;
-//border: solid 1px #fff !important;
+border: solid 1px #fff !important;*/
+background: #fff none repeat scroll 0 0 !important;
+border: 0px solid #fff !important;
+color: #000 !important;
+display: block !important;
+margin-bottom: 0px !important;
+margin-top: 0px !important;
+padding: 15px 30px  !important;
 }
 
 .main-nav .current a {
@@ -88,7 +96,7 @@ text-align: center;
         width:100%;
         padding: 0 0 0 350px !important;
         z-index: 100;
-        height:  47px;
+        height:  44px;
        padding-left: 150px;
 
         -moz-box-shadow: -3px 0px 8px #333;
@@ -102,8 +110,8 @@ text-align: center;
       width: auto;
       height: 40px;
       top: 0;
-      left: 50px;
-      z-index: 101;
+      left: 29px;
+      z-index: 1111;
       position:fixed;padding:3px;
     }
 
@@ -112,7 +120,7 @@ text-align: center;
     }
 /* LIP */
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 859px) {
   .main-nav {
     margin-top: -13px !important;
 }
@@ -129,7 +137,7 @@ text-align: center;
 .main-nav {
 position: relative;
 min-height: 40px;
-max-width:800px;
+max-width:100%;
 }
 .main-nav ul {
 width: 100%;
@@ -160,7 +168,7 @@ cursor: pointer;
 .main-nav a {
 display: block;
 margin: 0;
-padding: 5px 5px 5px 32px;
+padding: 15px 25px;
 text-align: left;
 
 }
@@ -193,6 +201,7 @@ margin-top: 0px;
   float: left;
   height: 360px;
   width: 260px;
+  padding-top: 1px;
 }
 
 .Varsicherungen-menu{
@@ -204,6 +213,7 @@ padding: 0;
 .Varsicherungen-menu li{
   list-style: none;
   text-decoration: none;
+  margin-top: -1px;
 }
 .Varsicherungen-menu a{
 color: #fff ;
@@ -222,10 +232,12 @@ text-decoration: none;
 }
 .current_page_item a{
    display: block;
- padding: 15px 25px;
+ padding: 15px 25px 15px;
   color: #323739;
   background: #becbd4;
   border: solid 1px #364248;
+  margin-bottom: -1px;
+  margin-top: -1px;
 }
 
 /* Varsicherungen menu

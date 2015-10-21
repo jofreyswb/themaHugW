@@ -16,7 +16,7 @@
 </div>-->
 <div class="SliderLightHUG">
 <!--<?php echo do_shortcode('[layerslider id="1"]'); ?>   -->
-<?php layerslider(1) ?>
+<?php layerslider(4) ?>
 </div> <!-- end  SliderLightHUG-->
 <div class="contentPage">
  <nav class="Varsicherungen-navigation">

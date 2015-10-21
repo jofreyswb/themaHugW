@@ -19,7 +19,7 @@ $(document).ready(function(){
         var $menu = $("#primary-menu");
 
         $(window).scroll(function(){
-            if ((document.body.clientWidth) > 800) {
+            if ((document.body.clientWidth) > 859) {
 			if ( $(this).scrollTop() > 350 && $menu.hasClass("nav-menu")){
                 $menu.fadeOut('fast',function(){
                     $(this).removeClass("nav-menu")

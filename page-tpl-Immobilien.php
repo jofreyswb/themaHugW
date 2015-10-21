@@ -16,7 +16,7 @@
 </div>-->
 <div class="SliderLightHUG">
 <!--<?php echo do_shortcode('[layerslider id="1"]'); ?>   -->
-    <?php layerslider(1) ?>
+    <?php layerslider(5) ?>
 </div> <!-- end  SliderLightHUG-->
 <div class="contentPage">
  <nav class="Varsicherungen-navigation">
@@ -30,5 +30,5 @@
     </div> <!-- end postContent-->
 </section>    <!-- end main-heading -->
 </div>    <!-- end contentPage -->
- <script  src="<?php bloginfo( 'stylesheet_directory' ); ?>/js/MMOBILIEN.js"></script> 
+ <script  src="<?php bloginfo( 'stylesheet_directory' ); ?>/js/MMOBILIEN.js"></script>
 <?php get_footer(); ?>

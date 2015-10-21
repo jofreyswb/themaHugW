@@ -30,4 +30,53 @@ if (function_exists('add_theme_support')) {
 add_filter( 'the_content', 'wpautop' );
 remove_filter( 'the_excerpt', 'wpautop' );
 
+
+
+
+
+/* sideBar */
+function theme_widgets_init() {
+
+    register_sidebar( array(
+        'name' => __( '2 bottom sidebar','WebSite3D'),
+        'id' => 'top-sidebar',
+        'description'   => __( 'Äמבאגüעו גאר גטהזוע ג סאיהבאנ', 'WebSite3D' ),
+        'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+        'after_widget' => "</aside>",
+        'before_title' => '<h2 class="widget-title">',
+        'after_title' => '</h2>',
+    ) );
+
+    register_sidebar( array(
+        'name' => __( '1 bottom sidebar','WebSite3D'),
+        'id' => 'bottom-sidebar',
+        'description'   => __( 'Äמבאגüעו גאר גטהזוע ג סאיהבאנ', 'WebSite3D' ),
+        'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+        'after_widget' => "</aside>",
+        'before_title' => '<h2 class="widget-title">',
+        'after_title' => '</h2>',
+    ) );
+
+        register_sidebar( array(
+        'name' => __( '3 bottom sidebar','WebSite3D'),
+        'id' => 'left-sidebar',
+        'description'   => __( 'Äמבאגüעו גאר גטהזוע ג סאיהבאנ', 'WebSite3D' ),
+        'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+        'after_widget' => "</aside>",
+        'before_title' => '<h2 class="widget-title">',
+        'after_title' => '</h2>',
+    ) );
+
+        register_sidebar( array(
+        'name' => __( '4 bottom sidebar','WebSite3D'),
+        'id' => 'right-sidebar',
+        'description'   => __( 'Äמבאגüעו גאר גטהזוע ג סאיהבאנ', 'WebSite3D' ),
+        'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+        'after_widget' => "</aside>",
+        'before_title' => '<h2 class="widget-title">',
+        'after_title' => '</h2>',
+    ) );
+}
+add_action( 'widgets_init', 'theme_widgets_init' );
+/* sideBar */
 ?>
