@@ -77,4 +77,10 @@ img.aligncenter {
 .wp-caption.aligncenter {
 	margin-bottom: 1.2em;
 }
+/*  Alignments
+=================================== */
 
+.rtbs .rtbs_menu li a {
+  color: #333 !important;
+ 
+}

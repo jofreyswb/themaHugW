@@ -1,6 +1,7 @@
 $(document).ready(function(){
 
 
+   $(".nav-menu li").removeClass("current_page_item");
    $("#current").click(function(){
 
      /*  $(".main-nav ul").fadeOut(2000);  */
